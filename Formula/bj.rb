@@ -1,15 +1,15 @@
 class Bj < Formula
   desc "The bj application"
-  homepage "https://github.com/ynqa/bricolaje"
+  homepage "https://github.com/bricolaje-app/bricolaje"
   version "0.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/ynqa/bricolaje/releases/download/bj-v0.1.0/bj-aarch64-apple-darwin.tar.xz"
-      sha256 "566152cdd2a5149244a28e00a4cce2e08b14f97af994f621499ba898bb160931"
+      url "https://github.com/bricolaje-app/bricolaje/releases/download/bj-v0.1.0/bj-aarch64-apple-darwin.tar.xz"
+      sha256 "8a46ebe4772ec95e10829fbb3894b2005313c77c128480708e198564c37ead43"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/ynqa/bricolaje/releases/download/bj-v0.1.0/bj-x86_64-apple-darwin.tar.xz"
-      sha256 "ca5cc6475d2a7bc48deb6d522146c70eae146df9da3cbe4bc2bc044bcff91e7a"
+      url "https://github.com/bricolaje-app/bricolaje/releases/download/bj-v0.1.0/bj-x86_64-apple-darwin.tar.xz"
+      sha256 "77f2658e65d3ceb7fdcb59f596f771c8c7d7bfec35069016649fec89bf5e0878"
     end
   end
 
