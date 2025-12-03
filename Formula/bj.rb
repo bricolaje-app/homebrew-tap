@@ -1,15 +1,15 @@
 class Bj < Formula
   desc "The bj application"
-  homepage "https://github.com/bricolaje-app/bricolaje"
+  homepage "https://github.com/bricolaje-app/homebrew-tap"
   version "0.1.0"
   if OS.mac?
     if Hardware::CPU.arm?
-      url "https://github.com/bricolaje-app/bricolaje/releases/download/bj-v0.1.0/bj-aarch64-apple-darwin.tar.xz"
-      sha256 "8a46ebe4772ec95e10829fbb3894b2005313c77c128480708e198564c37ead43"
+      url "https://github.com/bricolaje-app/homebrew-tap/releases/download/bj-v0.1.0/bj-aarch64-apple-darwin.tar.xz"
+      sha256 "376e0a93f1442e9c28e85966bfc5981a6841db4096ebec843e24ccec025d8840"
     end
     if Hardware::CPU.intel?
-      url "https://github.com/bricolaje-app/bricolaje/releases/download/bj-v0.1.0/bj-x86_64-apple-darwin.tar.xz"
-      sha256 "77f2658e65d3ceb7fdcb59f596f771c8c7d7bfec35069016649fec89bf5e0878"
+      url "https://github.com/bricolaje-app/homebrew-tap/releases/download/bj-v0.1.0/bj-x86_64-apple-darwin.tar.xz"
+      sha256 "6d022f1ee428268362c076ef45080030fc179282efc4d74ff048d25df6e85324"
     end
   end
 
